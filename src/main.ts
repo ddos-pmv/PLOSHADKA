@@ -8,6 +8,8 @@ import App from './App.vue'
 import HomeView from './views/HomeView.vue'
 import PlayGroundsView from './views/PlayGroundsView.vue'
 
+import gAuthPlugin from 'vue3-google-oauth2'
+
 const router = createRouter({
   routes: [
     {
